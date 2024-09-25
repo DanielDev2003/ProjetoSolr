@@ -9,4 +9,6 @@
  4. Depois, execute o seguinte comando: solr create -c user_core
     
  6. Agora você está pronto para executar este projeto.
+    
+ 8. Depois que executar, acesse o projeto na seguinte url: http://localhost:8080/swagger-ui.html
  
