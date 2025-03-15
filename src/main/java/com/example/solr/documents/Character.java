@@ -4,8 +4,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.solr.core.mapping.Indexed;
 import org.springframework.data.solr.core.mapping.SolrDocument;
 
-@SolrDocument(solrCoreName = "user_core")
-public class UserDoc {
+@SolrDocument(solrCoreName = "characters")
+public class Character {
 
     @Id
     @Indexed
@@ -14,11 +14,11 @@ public class UserDoc {
     @Indexed(name = "username", type = "string")
     private String username;
 
-    @Indexed(name = "email", type = "string")
-    private String email;
+    @Indexed(name = "anime", type = "string")
+    private String anime;
 
-    @Indexed(name = "phone_number", type = "string")
-    private String phoneNumber;
+    @Indexed(name = "description", type = "string")
+    private String description;
 
     public String getId() {
         return id;
@@ -36,19 +36,19 @@ public class UserDoc {
         this.username = username;
     }
 
-    public String getEmail() {
-        return email;
+    public String getAnime() {
+        return anime;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setAnime(String anime) {
+        this.anime = anime;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getDescription() {
+        return description;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
