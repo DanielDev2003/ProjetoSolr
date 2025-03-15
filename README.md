@@ -41,7 +41,7 @@ Antes de rodar o projeto, certifique-se de ter instalado:
   ``` 
 7. Agora você está pronto para executar este projeto.
 
-### 3️⃣ **Rodar o Projeto**
+### 3️⃣ **Executar o Projeto**
 1. Execute o seguinte comando para iniciar a aplicação:
   ```sh
   mvn spring-boot:run
