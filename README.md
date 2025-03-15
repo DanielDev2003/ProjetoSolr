@@ -38,7 +38,7 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 6. Verifique se o Solr está rodando acessando:
   ```sh
    http://localhost:8983/solr
-  ```
+  ``` 
 7. Agora você está pronto para executar este projeto.
 
 ### 3️⃣ **Rodar o Projeto**
@@ -49,4 +49,4 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 2. Depois que executar, acesse o projeto na seguinte url:
   ```sh
   http://localhost:8080/swagger-ui.html
-  ```
+  ``` 
