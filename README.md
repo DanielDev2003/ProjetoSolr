@@ -31,22 +31,22 @@ Antes de rodar o projeto, certifique-se de ter instalado:
    ```sh
    solr start
    ```
-5.Crie um core chamado characters:
+5. Crie um core chamado characters:
   ```sh
   solr create -c characters
   ```
-6.Verifique se o Solr está rodando acessando:
+6. Verifique se o Solr está rodando acessando:
   ```
-  🔗 http://localhost:8983/solr
+   http://localhost:8983/solr
   ```
-7.Agora você está pronto para executar este projeto.
+7. Agora você está pronto para executar este projeto.
 
-### 4️⃣ **Rodar o Projeto**
-1.Execute o seguinte comando para iniciar a aplicação:
+### 3️⃣ **Rodar o Projeto**
+1. Execute o seguinte comando para iniciar a aplicação:
   ```
   mvn spring-boot:run
   ```
-2.Depois que executar, acesse o projeto na seguinte url:
+2. Depois que executar, acesse o projeto na seguinte url:
   ```
-  🔗 http://localhost:8080/swagger-ui.html
+  http://localhost:8080/swagger-ui.html
   ```
